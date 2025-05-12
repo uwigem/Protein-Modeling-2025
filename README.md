@@ -5,7 +5,7 @@ Centralized repository for Washington iGEM 2025 Protein Modeling
 
 > At this point, you should already have RFdiffusion setup and working. If not, follow [these](https://github.com/RosettaCommons/RFdiffusion) instructions.
 
-#### Vague Directory Structure
+### Vague Directory Structure
 
 ```
 .
@@ -30,5 +30,11 @@ Centralized repository for Washington iGEM 2025 Protein Modeling
 ```
 
 Setup the overall directory structure like above.
-> If you already have RFdiffusion
+> If you already have RFdiffusion, don't worry about setting up that directory. Clone this repo in the same parent directory as your RFdiffusion repo.
+
+### Instructions for cloning:
+In your iGEM parent directory, run the following commands:
+```
+git clone 
+```
 
