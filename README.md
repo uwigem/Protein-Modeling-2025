@@ -18,6 +18,7 @@ Centralized repository for Washington iGEM 2025 Protein Modeling
     │   ├── rfdiffusion
     │   └── 6iok
     └── Protein-Modeling-2025*/
+        ├── aliases.sh
         └── Diffusion/
             ├── designs
             ├── inputs/
@@ -35,6 +36,8 @@ Setup the overall directory structure like above.
 ### Instructions for cloning:
 In your iGEM parent directory, run the following commands:
 ```
-git clone 
+git clone https://github.com/uwigem/Protein-Modeling-2025.git
+cd Protein-Modeling-2025
 ```
+We've included some
 
