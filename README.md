@@ -39,5 +39,11 @@ In your iGEM parent directory, run the following commands:
 git clone https://github.com/uwigem/Protein-Modeling-2025.git
 cd Protein-Modeling-2025
 ```
-We've included some
+
+## Usage
+We've included some aliases in /aliases.sh to make things easier. Below is a breakdown:
+
+## Scripts
+
+
 
