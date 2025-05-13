@@ -41,7 +41,37 @@ cd Protein-Modeling-2025
 ```
 
 ## Usage
-We've included some aliases in /aliases.sh to make things easier. Below is a breakdown:
+We've included some aliases/functions in /aliases.sh to make things easier. To be able to use these on your system, run the following commands:
+
+On mac (in Protein-Modeling-2025):
+```
+echo "source $(pwd)/aliases.sh" >> ~/.zshrc
+```
+On windows git bash (in Protein-Modeling-2025):
+```
+echo "source $(pwd)/aliases.sh" >> ~/.bashrc
+```
+
+Keep in mind that this will let you use the aliases across your system. Below is a breakdown of the aliases:
+
+#### `gupdate`
+
+Definition:
+```
+git stash
+git pull
+git stash pop
+```
+Usage: Run ```gupdate``` **before *making* any new changes to the repo** or right **before *pushing* new changes**. In summary, this command stores away (stashes) your new changes, pulls new changes from the upstream repo, and then reimplements your changes. 
+
+#### `gpush`
+Definition:
+```
+git add .
+git commit -m "$1"
+git push 
+```
+Usage: Run ```gpush *insert commit message here*``` when making changes  
 
 ## Scripts
 
