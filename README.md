@@ -49,7 +49,7 @@ echo "source $(pwd)/aliases.sh" >> ~/.zshrc; source ~/.zshrc
 ```
 On windows git bash (in Protein-Modeling-2025):
 ```
-echo "source $(pwd)/aliases.sh" >> ~/.bashrc; source ~/.zshrc
+echo "source $(pwd)/aliases.sh" >> ~/.bashrc; source ~/.bashrc
 ```
 
 Keep in mind that this will let you use the aliases across your system. Below is a breakdown of the aliases:
