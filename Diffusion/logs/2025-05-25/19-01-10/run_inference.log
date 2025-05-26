@@ -1,0 +1,9 @@
+[2025-05-25 19:01:10,852][__main__][INFO] - ////////////////////////////////////////////////
+[2025-05-25 19:01:10,852][__main__][INFO] - ///// NO GPU DETECTED! Falling back to CPU /////
+[2025-05-25 19:01:10,852][__main__][INFO] - ////////////////////////////////////////////////
+[2025-05-25 19:01:10,852][rfdiffusion.inference.model_runners][INFO] - Reading checkpoint from /Users/arjun/iGEM/RFdiffusion/rfdiffusion/inference/../../models/Complex_base_ckpt.pt
+[2025-05-25 19:01:11,925][rfdiffusion.inference.model_runners][INFO] - Loading checkpoint.
+[2025-05-25 19:01:12,054][rfdiffusion.diffusion][INFO] - Using cached IGSO3.
+[2025-05-25 19:01:12,074][__main__][INFO] - Making design ../designs/ArjunNaik/design_ppi/ultra_remod/six_hotspot/run_3/design_0
+[2025-05-25 19:01:12,083][rfdiffusion.inference.model_runners][INFO] - Using contig: ['A1-202/0 150-200']
+[2025-05-25 19:01:12,113][rfdiffusion.inference.model_runners][INFO] - Sequence init: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------GVDGSGTRQRLPGDLSTTGSPAISSQYGVTLSISLTANAGTMSRQLSGLFDAGSGSWLFQPSINLGVDGSGTRQRLPGDLSTTGSPAISSQYGVTLGSISLTANAGTMSRQLSGLFDAGSGSWLFQPSINLPIGVDGSGTRQRLPGDLSTTGSPAISSQYGVTLGTTAWSISLTANAGTMSRQLSGLFDAGSGSWLFQPSIN

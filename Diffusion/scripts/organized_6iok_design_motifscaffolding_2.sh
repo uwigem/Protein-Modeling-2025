@@ -11,4 +11,13 @@
 # We generate 4 designs
 # As in the paper (at least for some of the designs we tested), we use the complex-finetuned model
 
-python ../scripts/run_inference.py inference.output_prefix=output_pdbs/design_ppi/ultra_remod/single_strand_scaffold/run_3/scaffold_3_design inference.input_pdb=input_pdbs/6iok_ultra_remod_with_strand.pdb 'contigmap.contigs=[A1-202/0 0/B7-11/40-60]' contigmap.length=45-65 inference.num_designs=4 inference.ckpt_override_path=../models/Complex_base_ckpt.pt
+if [ "$#" -ne 2 ]; then
+  echo "Incorrect number of arguments. Expected 2, but got $#."
+  exit 1
+fi
+user=$(git config user.name | tr -d ' ')
+
+python ../../../RFdiffusion/scripts/run_inference.py inference.output_prefix=../designs/$user/design_ppi/ultra_remod/single_strand_scaffold/run_3/scaffold_3_design inference.input_pdb=input_pdbs/$1 'contigmap.contigs=[A1-202/0 0/B7-11/40-60]' contigmap.length=45-65 inference.num_designs=$2 inference.ckpt_override_path=../../../RFdiffusion/models/Complex_base_ckpt.pt
+
+mv outputs/* ../logs/
+rmdir outputs

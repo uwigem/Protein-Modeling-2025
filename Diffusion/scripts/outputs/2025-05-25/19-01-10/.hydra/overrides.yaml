@@ -1,0 +1,7 @@
+- inference.output_prefix=../designs/ArjunNaik/design_ppi/ultra_remod/six_hotspot/run_3/design
+- inference.input_pdb=../inputs/6iok_ultra_remod.pdb
+- contigmap.contigs=[A1-202/0 150-200]
+- ppi.hotspot_res=[A24,A60,A89,A126,A157,A198]
+- inference.num_designs=1
+- denoiser.noise_scale_ca=0
+- denoiser.noise_scale_frame=0

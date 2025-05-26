@@ -1,0 +1,8 @@
+[2025-05-25 19:03:19,566][__main__][INFO] - ////////////////////////////////////////////////
+[2025-05-25 19:03:19,566][__main__][INFO] - ///// NO GPU DETECTED! Falling back to CPU /////
+[2025-05-25 19:03:19,566][__main__][INFO] - ////////////////////////////////////////////////
+[2025-05-25 19:03:19,566][rfdiffusion.inference.model_runners][INFO] - Reading checkpoint from /Users/arjun/iGEM/RFdiffusion/rfdiffusion/inference/../../models/Base_ckpt.pt
+[2025-05-25 19:03:20,694][rfdiffusion.inference.model_runners][INFO] - Loading checkpoint.
+[2025-05-25 19:03:20,868][rfdiffusion.diffusion][INFO] - Using cached IGSO3.
+[2025-05-25 19:03:20,876][__main__][INFO] - Making design samples/design_0
+[2025-05-25 19:03:20,879][rfdiffusion.inference.model_runners][INFO] - Using contig: None
