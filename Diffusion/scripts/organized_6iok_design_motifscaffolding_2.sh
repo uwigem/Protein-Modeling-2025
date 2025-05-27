@@ -15,7 +15,7 @@ if [ "$#" -ne 2 ]; then
   echo "Incorrect number of arguments. Expected 2, but got $#."
   exit 1
 fi
-user=$(cat ../../user)
+user=$(git config user.name | tr -d ' ')
 
 python ../../../RFdiffusion/scripts/run_inference.py inference.output_prefix=../designs/$user/design_ppi/ultra_remod/single_strand_scaffold/run_3/scaffold_3_design inference.input_pdb=input_pdbs/$1 'contigmap.contigs=[A1-202/0 0/B7-11/40-60]' contigmap.length=45-65 inference.num_designs=$2 inference.ckpt_override_path=../../../RFdiffusion/models/Complex_base_ckpt.pt
 
