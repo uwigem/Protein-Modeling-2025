@@ -52,6 +52,8 @@ On windows git bash (in Protein-Modeling-2025):
 echo "<YOUR_NAME>" > user; echo "source $(pwd)/aliases.sh" >> ~/.bashrc; source ~/.bashrc
 ```
 
+> Replace <YOUR_NAME> with your name with no spaces
+
 Keep in mind that this will let you use the aliases across your system. Below is a breakdown of the aliases:
 
 #### `gupdate`
