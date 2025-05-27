@@ -12,7 +12,7 @@ if [ "$#" -ne 2 ]; then
   exit 1
 fi
 
-user=$(git config user.name | tr -d ' ')
+user=$(cat ../../user)
 #cd ../../../RFdiffusion
 
 ../../../RFdiffusion/scripts/run_inference.py inference.output_prefix=../designs/$user/design_ppi/ultra_remod/six_hotspot/run_3/design inference.input_pdb=../inputs/$1 'contigmap.contigs=[A1-202/0 150-200]' 'ppi.hotspot_res=[A24,A60,A89,A126,A157,A198]' inference.num_designs=$2 denoiser.noise_scale_ca=0 denoiser.noise_scale_frame=0
