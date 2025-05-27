@@ -45,11 +45,11 @@ We've included some aliases/functions in /aliases.sh to make things easier. To b
 
 On mac (in Protein-Modeling-2025):
 ```
-echo "source $(pwd)/aliases.sh" >> ~/.zshrc; source ~/.zshrc
+echo "<YOUR_NAME>" > user; echo "source $(pwd)/aliases.sh" >> ~/.zshrc; source ~/.zshrc
 ```
 On windows git bash (in Protein-Modeling-2025):
 ```
-echo "source $(pwd)/aliases.sh" >> ~/.bashrc; source ~/.bashrc
+echo "<YOUR_NAME>" > user; echo "source $(pwd)/aliases.sh" >> ~/.bashrc; source ~/.bashrc
 ```
 
 Keep in mind that this will let you use the aliases across your system. Below is a breakdown of the aliases:
